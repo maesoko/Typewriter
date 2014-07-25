@@ -30,7 +30,6 @@ onenterframe:function(){
   this.text = this.message.charAt(
     this.counter % this.message.length
     );
-  this.counter++;
 
   this.text = this.message.substring(
     0,this.counter % this.message.length
